@@ -15,9 +15,11 @@ spring:
         jaas:
           config: org.apache.kafka.common.security.scram.ScramLoginModule required username="iixp9xko" password="nzbgXuSlZFayysZa29pyk01wgtEReHFa";
   cloud:
-#    function:
-#      definition: updateCurrentAmountAccount
+    function:
+      definition: tradingUpdBootcoin
     stream:
       bindings:
         bootcoin-trading-out-0:
           destination: iixp9xko-bootcoin-trading
+        tradingUpdBootcoin-in-0:
+          destination: iixp9xko-trading-updBootcoin

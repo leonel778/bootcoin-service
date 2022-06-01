@@ -7,9 +7,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class GenerateTrade {
+public class BootCoinTrade {
 
-    private String tradingId;
-    private String bootcoinId;
-    private Long phoneNumber;
+    private String bootcoidId;
+    private Double amount;
 }

@@ -18,5 +18,5 @@ public class BootcoinDocument {
     private String documentType;
     private int phoneNumber;
     private String email;
-    private int amount;
+    private Double amount;
 }

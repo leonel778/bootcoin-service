@@ -25,4 +25,6 @@ public class BootcoinApi {
         return bootcoinService.createTrading(generateTrade);
     }
 
+
+
 }
